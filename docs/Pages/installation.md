@@ -1,6 +1,5 @@
 ---
 title: Installation
-permalink: /https://bigboss-oualid.github.io/test/Pages/installation.md
 ---
 
 # Installation
