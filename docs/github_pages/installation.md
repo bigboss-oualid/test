@@ -1,9 +1,7 @@
----
----
 
 # Installation
 
-[Back to summary](index.md)
+[Back to summary](../index.md)
 
 ## Prepare your work environment 
 ### Prerequisites
@@ -66,4 +64,4 @@ php bin/console --no-interaction doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load -n
 ```
 
-[Next step](/github_pages/try_project.md "Try the application")
+[Next step](try_project.md "Try the application")

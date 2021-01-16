@@ -1,7 +1,9 @@
 # Documentation
 
 ## Sommaire
+
 1. [Installation](github_pages/installation.md)
+2. [Try the Application](github_pages/try_application.md)
 2. [Environnements](github_pages/environnements.md)
 3. [Intégration continue](github_pages/integration_continue.md)
 4. [Tests](github_pages/tests.md)
