@@ -2,6 +2,7 @@ theme: jekyll-theme-leap-day
 exclude: [authentication_tutorial]
 title: Welcome to the ToDo&Co Repository homepage!
 description: Feel free to bookmark this to keep an eye on my project updates...
+#show_downloads: true
 #permalink: https://bigboss-oualid.github.io/test/docs/
 #baseurl: it-bigboss.de
 #header_pages:
@@ -12,20 +13,3 @@ description: Feel free to bookmark this to keep an eye on my project updates...
   #email: "oualid.boulatar@it-bigboss.de"
 
 # Enter the following platform usernames if you would like for them to appear on your site.
-owner:
-  name: oualid
-  avatar: bio-photo.jpg
-  bio: "This is a sample Jekyll academic website."
-  email: oualid.boulatar@it-bigboss.de
-  # Do not include the @ symbol in your Twitter username
-  twitter: laderast
-  linkedin: #username
-  github: laderast
-  orcid: # ID Number (ex. 0000-0000-0000-0000)
-  researchgate: #username
-  mendeley: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    scholar: #id
