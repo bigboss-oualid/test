@@ -1,7 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages.
 
-[__Installation__](pages/installation.md)
-[__Sommaire__](pages/sommaire.md)
+![__Installation__](Pages/installation.md)
+![__Sommaire__](Pages/sommaire.md)
 
 You can use the [editor on GitHub](https://github.com/bigboss-oualid/test/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -27,6 +27,22 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+```
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```php
+# Php code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
