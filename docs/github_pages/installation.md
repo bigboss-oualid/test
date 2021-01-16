@@ -1,5 +1,4 @@
 ---
-permalink: /docs/
 ---
 
 # Installation
@@ -67,4 +66,4 @@ php bin/console --no-interaction doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load -n
 ```
 
-<div style="float: right">[Next step](/github_pages/try_project.md "Try the application")</div>
+[Next step](/github_pages/try_project.md "Try the application")
