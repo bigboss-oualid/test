@@ -1,78 +1,66 @@
----
-title: Installation
----
-
 # Installation
 
-[Retour au sommaire](index.md)
+[Back to summary](index.md)
 
-## Récupérer les sources du projet
-Pensez à `fork` le projet, pensez à lire le [guide de contribution](/CONTRIBUTING.md).
-```
+## Prepare your work environment 
+###Prerequisites
+* [![WampServer](https://img.shields.io/badge/WampServer-v3.2.0-F70094)](https://www.wampserver.com/) OR [![PHP](https://img.shields.io/badge/PHP-%3E%3D7.4.7-7377AD)](https://www.php.net/manual/fr/install.php) + [![APACHE](https://img.shields.io/badge/APACHE-2.4-D94A32)](https://httpd.apache.org/docs/2.4/install.html) + [![MySQL](https://img.shields.io/badge/MySQL-v8.0.19-DF6900)](https://dev.mysql.com/downloads/mysql/#downloads)
+* [![Git](https://img.shields.io/badge/Git-v2.27-E94E31)](https://git-scm.com/download)
+* [![SymfonyCLI](https://img.shields.io/badge/Symfony-v4.20-000000)](https://symfony.com/download)
+* [![Composer](https://img.shields.io/badge/Composer-v1.10.13-5F482F)](https://getcomposer.org/download)
+* [![Nodes](https://img.shields.io/badge/Nodejs-v14.5.0-026E00)](https://nodejs.org)
+
+Download & install all prerequisites tools
+
+## Set up the Project
+Think to fork the project & read the [contribution guide](/CONTRIBUTING.md).
+
+### Retrieve the project sources
+```shell
 git clone https://github.com/<your-username>/<repo-name>
 ```
 
-## Pré-requis
-* PHP >= 7.4.4
-* Extensions PHP :
-    * ctype
-    * iconv
-    * json
-    * xml
-    * intl
-* composer
-* MySQL >= 8.0.0
-* NodeJS >= 14.4.0
-* npm >= 6.14.5
-
-## Installer les dépendances
-Dans un premier temps, positionnez vous dans le dossier du projet :
-```
+### Install dependencies
+1. In your terminal change the working directory to the project folder and run the below command line to install all dependencies:
+``shell
 cd <repo-name>
-```
+``
 
-Installez les dépendances de **composer** :
-```
+2. Install **composer** dependencies:
+``shell 
 composer install
-```
+``
 
-Ainsi que les dépendances de **npm** :
-```
+3. Install **npm** dependencies:
+``shell 
 npm install
+``
+
+### Set up Database:
+1. Edit the variable ***DATABASE_URL*** at line ``28`` on the file **```./.env```** with your database details.
+ 
+ > [More info about how you Configure the Database in Symfony](https://symfony.com/doc/current/doctrine.html#configuring-the-database)
+ 
+2. Run ***WampServer*** (Or run Mysql separately, if you don't use Wamp).
+
+3. Create the application **database**: 
+```shell 
+php bin/console doctrine:database:create
 ```
 
-## Environnements
-Pour faire fonctionner le projet sur votre machine, pensez à configurer les différentes environnements. Une documentation sur ce sujet est présent [ici](environnements.md).
-
-## Initialiser les base de données
-En commençant par l'environnement `dev`
-```
-make prepare-dev
+4. Create the Database script Tables/Schema:
+```shell
+php bin/console make:migration
 ```
 
-Puis l'environnement `test`:
-```
-make preapre-test
-```
-
-## Lancer le serveur en local
-Il est nécessaire d'avoir installé le [binaire de symfony](https://symfony.com/download).
-```
-symfony serve
+5. Add tables in the Database:
+```shell 
+php bin/console --no-interaction doctrine:migrations:migrate
 ```
 
-## Gestion des ressources externes (css, js)
-Compilez une seule fois les fichiers en environnement de développement :
-```
-npm run dev
-```
-
-Activez la compilation automatique :
-```
-npm run watch
+6. Load the initial data into the application database:
+```shell 
+php bin/console doctrine:fixtures:load -n
 ```
 
-Compilez les fichiers pour la production :
-```
-npm run build
-```
+<div style="float: right">[Next step](try_project.md "Try the application")</div>
