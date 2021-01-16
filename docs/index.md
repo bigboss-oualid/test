@@ -1,6 +1,7 @@
 ## Welcome to GitHub Pages
 
-site.pages
+[__Installation__](pages/installation.md)
+[__Sommaire__](pages/sommaire.md)
 
 You can use the [editor on GitHub](https://github.com/bigboss-oualid/test/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
