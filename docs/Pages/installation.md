@@ -1,3 +1,8 @@
+---
+title: Installation
+permalink: /https://bigboss-oualid.github.io/test/Pages/installation.md
+---
+
 # Installation
 
 [Retour au sommaire](index.md)
