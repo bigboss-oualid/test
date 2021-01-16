@@ -1,9 +1,13 @@
+---
+permalink: /docs/
+---
+
 # Installation
 
 [Back to summary](index.md)
 
 ## Prepare your work environment 
-###Prerequisites
+### Prerequisites
 * [![WampServer](https://img.shields.io/badge/WampServer-v3.2.0-F70094)](https://www.wampserver.com/) OR [![PHP](https://img.shields.io/badge/PHP-%3E%3D7.4.7-7377AD)](https://www.php.net/manual/fr/install.php) + [![APACHE](https://img.shields.io/badge/APACHE-2.4-D94A32)](https://httpd.apache.org/docs/2.4/install.html) + [![MySQL](https://img.shields.io/badge/MySQL-v8.0.19-DF6900)](https://dev.mysql.com/downloads/mysql/#downloads)
 * [![Git](https://img.shields.io/badge/Git-v2.27-E94E31)](https://git-scm.com/download)
 * [![SymfonyCLI](https://img.shields.io/badge/Symfony-v4.20-000000)](https://symfony.com/download)
@@ -63,4 +67,4 @@ php bin/console --no-interaction doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load -n
 ```
 
-<div style="float: right">[Next step](try_project.md "Try the application")</div>
+<div style="float: right">[Next step](/github_pages/try_project.md "Try the application")</div>
