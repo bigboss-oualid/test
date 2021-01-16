@@ -2,7 +2,7 @@ theme: jekyll-theme-leap-day
 exclude: [authentication_tutorial]
 title: Welcome to the ToDo&Co Repository homepage!
 description: Feel free to bookmark this to keep an eye on my project updates.
-permalink: https://bigboss-oualid.github.io/test/docs/github_pages/
+#permalink: https://bigboss-oualid.github.io/test/docs/
 #baseurl: it-bigboss.de
 header_pages:
   - pages/installation.md
