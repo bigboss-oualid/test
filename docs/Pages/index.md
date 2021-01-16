@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages.
 
 ![__Installation__](Pages/installation.md)
 ![__Sommaire__](Pages/sommaire.md)
