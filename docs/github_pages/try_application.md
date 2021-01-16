@@ -53,4 +53,4 @@ Username   | Password | Role  | Permissions
  **Create, Edit Tasks**
  **Delete own Tasks**
 
-[Next step](tests.md "Run Tests")
+[Next step](github-pages/tests.md "Run Tests")

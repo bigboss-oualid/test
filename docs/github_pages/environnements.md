@@ -1,6 +1,6 @@
 # Environnements
 
-[Retour au sommaire](index.md)
+[Back to summary](../index.md)
 
 Il existe plusieurs environnements différents :
 * `dev`: environnement de développement
