@@ -11,7 +11,7 @@
 * [![Composer](https://img.shields.io/badge/Composer-v1.10.13-5F482F)](https://getcomposer.org/download)
 * [![Nodes](https://img.shields.io/badge/Nodejs-v14.5.0-026E00)](https://nodejs.org)
 
-Download & install all prerequisites tools
+Download & install all prerequisites tools.
 
 ## Set up the Project
 Think to fork the project & read the [contribution guide](/CONTRIBUTING.md).
@@ -22,7 +22,7 @@ git clone https://github.com/<your-username>/<repo-name>
 ```
 
 ### Install dependencies
-1. In your terminal change the working directory to the project folder and run the below command line to install all dependencies:
+1. In your terminal change the working directory to the project folder:
 ```shell
 cd <repo-name>
 ```
@@ -45,23 +45,23 @@ npm install
 2. Run ***WampServer*** (Or run Mysql separately, if you don't use Wamp).
 
 3. Create the application **database**: 
-```symfony 
+```shell 
 php bin/console doctrine:database:create
 ```
 
 4. Create the Database script Tables/Schema:
-```symfony
+```shell
 php bin/console make:migration
 ```
 
 5. Add tables in the Database:
-```symfony 
+```shell 
 php bin/console --no-interaction doctrine:migrations:migrate
 ```
 
 6. Load the initial data into the application database:
-```symfony 
+```shell 
 php bin/console doctrine:fixtures:load -n
 ```
 
-[Next step](try_application.md "Try the application")
+[Next step](try_application.html "Try the application")

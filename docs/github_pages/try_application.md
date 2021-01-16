@@ -2,11 +2,11 @@
 
 [Back to summary](../index.md)
 
-## Test the application online
+## Test the application Locally
 
-1. Start the server locally
+* Start the server
 
-It is necessary to have installed the [symfony binary](https://symfony.com/download).
+>It is necessary to have installed the [symfony binary](https://symfony.com/download).
 
 ```shell
 # Start the server and display the log messages in the console
@@ -16,7 +16,7 @@ symfony server:start
 symfony server:start [-d]
 ```
 
-2. Optional: (If you want manage external ``css`` & ``javascript`` ressources)
+* Optional: (If you want manage external ``css`` & ``javascript`` ressources)
 
 Compile the files once in the development environment:
 ```npm
@@ -33,17 +33,24 @@ Compile the files for production:
 npm run build
 ```
 
-3. Navigate to [localhost:8000](http://localhost:8000)
+* Navigate to [localhost:8000](http://localhost:8000)
 
 ## Test the application online
 
 Visit the application [![ToDo&Co](https://img.shields.io/badge/ToDo&Co-yellow.svg)](https://todolist.it-bigboss.de/ "Manage your tasks")
 
-## Users accounts
-use one of the accounts below to login:
+## User accounts
+Use one of the accounts below to login:
 
 Username   | Password | Role  | Permissions
 ---------- | -------- | ------| --------
- admin     |   admin  | ADMIN | ```*Modify own profile*```, ```*Create users*```, ```*Edit users*```, ```*Create Tasks*```, ```*Modify Tasks*```, ```*Delete anonymous Tasks*```, ```*Delete own Tasks*```.
- customerx |   demo   | USER  | ```*Modify own profile*```, ```*Create Tasks*```, ```*Modify Tasks*```, ```*Delete own Tasks*```.
+ admin     |   admin  | ADMIN | **Modify own profile**
+ **Create & Edit users**
+ **Create, Edit Tasks**
+ **Delete anonymous Tasks**
+ **Delete own Tasks**
+ customerx |   demo   | USER  | **Modify own profile**
+ **Create, Edit Tasks**
+ **Delete own Tasks**
 
+[Next step](tests.md "Run Tests")
