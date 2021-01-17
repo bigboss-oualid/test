@@ -1,6 +1,6 @@
 # Installation
 
-[Back to summary](index.md)
+[Back to summary](../index.md)
 
 ## Prepare your work environment 
 ### Prerequisites
