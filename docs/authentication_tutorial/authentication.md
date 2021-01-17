@@ -515,8 +515,7 @@ La mise en page de base de notre application a été configurée dans le fichier
 Créer le fichier suivant ``templates/user/list.html.twig``
 
 ```twig
-{# templates/user/list.html.twig #}{#
-
+{# templates/user/list.html.twig #}
 {% extends 'base.html.twig' %}
 
 {% block body %}
@@ -556,7 +555,6 @@ Créer le fichier suivant ``templates/user/list.html.twig``
         </div>
     </div>
 {% endblock %}
-#}
 ```
 
 >Ici, nous parcourons les données du tableau associatif ``users`` transmis par l'action ``UserController::listAction()`` à la vue``template/user/list.html.twig``.
@@ -567,7 +565,7 @@ Ouvrez le fichier ``temaplates/partials/_header_default.html.twig`` et ajoutez l
 
 ```twig
 {# templates/partials/_navbar.html.twig #}
-{#
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg" >
     <div class="container">
         {% if is_granted('IS_AUTHENTICATED_FULLY') %}
@@ -606,7 +604,7 @@ Ouvrez le fichier ``temaplates/partials/_header_default.html.twig`` et ajoutez l
             </ul>
         {% endif %}
     </div>
-</nav>#}
+</nav>
 ```
 
 >Dans notre ``_navbar`` template, nous avons utilisé la fonction **helper build-in ``is_granted()``** pour vérifier
@@ -622,7 +620,6 @@ Ouvrez le fichier ``temaplates/partials/_header_default.html.twig`` et ajoutez l
 Créez le fichier ``template/user/create.html.twig`` et ajoutez le code suivant:
 
 ```twig
-{#
 {% extends 'base.html.twig' %}
 
 {% block body %}
@@ -655,7 +652,6 @@ Créez le fichier ``template/user/create.html.twig`` et ajoutez le code suivant:
         </div>
     </div>
 {% endblock %}
-#}
 ```
 >Ici, nous avons simplement intégré notre formulaire ``Form/UserType.php`` dans cette template, à l'aide des méthodes de [Symfony built-in form](https://symfony.com/doc/4.4/forms.html) 
    
