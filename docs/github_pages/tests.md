@@ -2,8 +2,8 @@
 
 [Back to summary](index.md)
 
-##PHPUnit
-Unit & fucntional tests are located in the folder ``./tests/PHPUnit``.
+## PHPUnit
+>Unit & fucntional tests are located in the folder ``./tests/PHPUnit``.
 
 ```shell
 # Run all tests of the app
@@ -13,8 +13,8 @@ Unit & fucntional tests are located in the folder ``./tests/PHPUnit``.
 ./bin/phpunit --filter CLASS_NAME
 ```
 
-##Behat
- BDD tests are located in the folder ``./features``.
+## Behat
+>BDD tests are located in the folder ``./features``.
 
 ```shell
 # Run all tests of the app
@@ -24,4 +24,4 @@ Unit & fucntional tests are located in the folder ``./tests/PHPUnit``.
 ./vendor/bin/behat.bat --tags=TAGS_NAME
 ```
 
-[Next step](tests.md "Run Tests")
+[Next step](analysis.md "Run Tests")

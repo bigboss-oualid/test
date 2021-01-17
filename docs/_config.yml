@@ -5,7 +5,7 @@ exclude: [authentication_tutorial]
 show_downloads: true
 baseurl: "/test"
 production_url : http://bigboss-oualid.github.io/test/github_pages
-BASE_PATH : http://bigboss-oualid.github.io/test/github_pages/index.md
+BASE_PATH : http://bigboss-oualid.github.io/test/index.md
 #permalink: https://bigboss-oualid.github.io/test/docs/
 #baseurl: it-bigboss.de
 #header_pages:
