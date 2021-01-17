@@ -32,3 +32,5 @@ Use ``PHP Code Sniffer`` to fix some errors automatically :
 ```
 vendor/bin/phpcbf
 ```
+
+[Next step](reports.md "Reports")
