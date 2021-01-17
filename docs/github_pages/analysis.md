@@ -3,6 +3,7 @@
 [Back to summary](../index.md)
 
 Respect [PSR-1](https://www.php-fig.org/psr/psr-1) & [PSR-12](https://www.php-fig.org/psr/psr-12).
+
 ## Launch analysis
 
 The below commands will analyze the code in the ``src`` folder of the project & generate html output :
@@ -33,4 +34,4 @@ Use ``PHP Code Sniffer`` to fix some errors automatically :
 ./vendor/bin/phpcbf
 ```
 
-[Next step](reports.md "Reports")
+[Next step](reports.html "Reports")

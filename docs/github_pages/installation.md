@@ -13,7 +13,7 @@
 Download & install all prerequisites tools.
 
 ## Set up the Project
-Think to [**fork**](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the project and read the [contribution guide](contributing.md).
+Think to [**fork**](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the project and read the [contribution guide](contributing.html).
 
 ### Retrieve the project sources
 ```shell

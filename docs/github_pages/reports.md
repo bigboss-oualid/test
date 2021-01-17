@@ -2,7 +2,7 @@
 
 [Back to summary](../index.md)
 
-##MVP
+## Minimum viable product
 
 ### Backend
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c5ffdcd6a7f94793a62d9fc54efe5409)](https://www.codacy.com/gh/bigboss-oualid/project_8/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bigboss-oualid/project_8&amp;utm_campaign=Badge_Grade)
@@ -43,3 +43,5 @@
  * [![Wave](https://img.shields.io/badge/Wave-v3.1.2-4877B5)](https://wave.webaim.org/ "used locally")
  * [![HTML Validator](https://img.shields.io/badge/HTMLValidator-v0.9.8.9-43BF4A)](http://users.skynet.be/mgueury/mozilla/ "used locally") 
  * [![WCAG Checker](https://img.shields.io/badge/WCAG-v0.96.0-222222)](https://ainspector.github.io/ "used locally")
+ 
+## Long-term support
