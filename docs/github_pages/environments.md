@@ -1,6 +1,6 @@
 # Environnements
 
-[Back to summary](index.md)
+[Back to summary](../index.md)
 
 Symfony applications come with a file called ``.env`` located at the project root directory. This file is used to define the value of environment variables and it’s explained in detail later in this article.
 
@@ -55,4 +55,4 @@ DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5
 
 >Don't forget to configure other environment variables as needed, like [MAILER_DSN](https://symfony.com/doc/4.4/mailer.html "Sending Emails with Mailer").
 
-[Next step](try_application.html "Try the application")
+[Next step](try_application.md "Try the application")

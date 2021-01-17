@@ -1,6 +1,6 @@
 # Try the Application
 
-[Back to summary](index.md)
+[Back to summary](../index.md)
 
 ## Test the application Locally
 

@@ -1,6 +1,6 @@
 # Analysis
 
-[Back to summary](index.md)
+[Back to summary](../index.md)
 
 Respect [PSR-1](https://www.php-fig.org/psr/psr-1) & [PSR-12](https://www.php-fig.org/psr/psr-12).
 ## Launch analysis

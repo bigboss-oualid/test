@@ -1,6 +1,6 @@
 # Tests
 
-[Back to summary](index.md)
+[Back to summary](../index.md)
 
 ## PHPUnit
 >Unit & fucntional tests are located in the folder ``./tests/PHPUnit``.

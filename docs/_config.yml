@@ -3,13 +3,11 @@ title: Welcome to 'ToDo&Co' Repository homepage!
 description: Feel free to bookmark this to keep an eye on my project updates.
 exclude: [authentication_tutorial]
 show_downloads: true
-#permalink: https://bigboss-oualid.github.io/test/docs/
-#baseurl: it-bigboss.de
-#header_pages:
-  #- pages/installation.md
-  #- pages/sommaire.md
-#author:
-  #name: BigBoss Walid
-  #email: "oualid.boulatar@it-bigboss.de"
+header_pages:
+  - pages/installation.md
+  - pages/sommaire.md
+author:
+  name: BigBoss Walid
+  email: "oualid.boulatar@it-bigboss.de"
 
 # Enter the following platform usernames if you would like for them to appear on your site.
