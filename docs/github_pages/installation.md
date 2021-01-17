@@ -1,5 +1,5 @@
 ---
-permalink: /github_pages/
+permalink: /github_pages/installation.html
 ---
 
 # Installation
