@@ -47,4 +47,4 @@ Username   | Password | Role  | Permissions
  admin     |   admin  | ADMIN | ``Modify own profile``, ``Create & Edit users``, ``Create, Edit Tasks``, ``Delete anonymous Tasks``, ``Delete own Tasks``
  customerx |   demo   | USER  | ``Modify own profile``,  ``Create, Edit Tasks``, ``Delete own Tasks``
 
-[Next step](tests.md "Run Tests")
+[Next step](tests.html "Run Tests")

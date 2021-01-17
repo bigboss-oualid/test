@@ -24,4 +24,4 @@
 ./vendor/bin/behat.bat --tags=TAGS_NAME
 ```
 
-[Next step](analysis.md "Code Analysis")
+[Next step](analysis.html "Code Analysis")
