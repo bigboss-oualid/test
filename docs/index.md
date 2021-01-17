@@ -8,3 +8,4 @@
 4. [Tests](github_pages/tests.md)
 5. [Analysis](github_pages/analysis.md)
 3. [Reports](github_pages/reports.md)
+3. [authentication](authentication_tutorial/authentication.md)
