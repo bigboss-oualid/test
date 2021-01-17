@@ -518,7 +518,7 @@ Créer le fichier suivant ``templates/user/list.html.twig``
 {# templates/user/list.html.twig #}
 {# extends 'base.html.twig' #}
 
-{% block body %}
+{# block body #}
     <div class="container">
         <div class="row">
             <div class="col-12 mb-5">
@@ -554,7 +554,7 @@ Créer le fichier suivant ``templates/user/list.html.twig``
             </div>
         </div>
     </div>
-{% endblock %}
+{# endblock #}
 ```
 
 >Ici, nous parcourons les données du tableau associatif ``users`` transmis par l'action ``UserController::listAction()`` à la vue``template/user/list.html.twig``.
@@ -622,7 +622,7 @@ Créez le fichier ``template/user/create.html.twig`` et ajoutez le code suivant:
 ```twig
 {# extends 'base.html.twig' #}
 
-{% block body %}
+{# block body #}
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -651,7 +651,7 @@ Créez le fichier ``template/user/create.html.twig`` et ajoutez le code suivant:
             </div>
         </div>
     </div>
-{% endblock %}
+{# endblock #}
 ```
 >Ici, nous avons simplement intégré notre formulaire ``Form/UserType.php`` dans cette template, à l'aide des méthodes de [Symfony built-in form](https://symfony.com/doc/4.4/forms.html) 
    
