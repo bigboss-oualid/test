@@ -9,7 +9,7 @@ Open the ``.env`` file (or better, the .env.local file if you created one), go t
 * `test`: test environment
 * `prod`: production environment
 
-``` dotenv
+```dotenv
 # .env (or .env.local)
 
 APP_ENV=prod
@@ -17,9 +17,8 @@ APP_ENV=prod
 
 This value is used both for the web and for the console commands. However, you can override it for commands by setting the **APP_ENV** value before running them:
 
-```shell
+```dotenv
 # use the environment defined in the .env file
-
  php bin/console command_name
 
 # Ignore the .env file & run this command in production
@@ -34,7 +33,7 @@ By default, no third-party service (mail, database, ...) is used, if you need so
 
 ## Test Environment
 It is essential to create the `.env.test.local` file to ensure the proper functioning of the tests, you can use this example as a basis:
-``` dotenv
+```dotenv
 # Necessary if you want to run system tests
 # define your env variables for the test env here
 KERNEL_CLASS='App\Kernel'
@@ -50,7 +49,7 @@ DATABASE_URL=sqlite:///%kernel.cache_dir%/test.db
 
 ## Production environment
 You have 2 options, create the `.env.prod.local` file or add your environment variables in the configuration of your virtual host:
-``` dotenv
+```dotenv
 DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7"
 ```
 

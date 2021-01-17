@@ -14,7 +14,7 @@
 Download & install all prerequisites tools.
 
 ## Set up the Project
-Think to fork the project & read the [contribution guide](/CONTRIBUTING.md).
+Think to fork the project & read the [contribution guide](contributing.md).
 
 ### Retrieve the project sources
 ```shell
