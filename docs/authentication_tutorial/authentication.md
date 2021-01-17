@@ -516,7 +516,7 @@ Créer le fichier suivant ``templates/user/list.html.twig``
 
 ```twig
 {# templates/user/list.html.twig #}
-{% extends 'base.html.twig' %}
+{# extends 'base.html.twig' #}
 
 {% block body %}
     <div class="container">
@@ -620,7 +620,7 @@ Ouvrez le fichier ``temaplates/partials/_header_default.html.twig`` et ajoutez l
 Créez le fichier ``template/user/create.html.twig`` et ajoutez le code suivant:
 
 ```twig
-{% extends 'base.html.twig' %}
+{# extends 'base.html.twig' #}
 
 {% block body %}
     <div class="container">
