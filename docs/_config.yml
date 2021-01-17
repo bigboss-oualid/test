@@ -3,8 +3,8 @@ title: Welcome to 'ToDo&Co' Repository homepage!
 description: Feel free to bookmark this to keep an eye on my project updates.
 exclude: [authentication_tutorial]
 show_downloads: true
-baseurl: "/test/github_pages"
-production_url : http://bigboss-oualid.github.io
+baseurl: "/test"
+production_url : http://bigboss-oualid.github.io/test/github_pages
 BASE_PATH : http://bigboss-oualid.github.io/test/github_pages/index.md
 #permalink: https://bigboss-oualid.github.io/test/docs/
 #baseurl: it-bigboss.de
