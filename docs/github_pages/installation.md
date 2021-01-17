@@ -64,4 +64,4 @@ php bin/console --no-interaction doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load -n
 ```
 
-[Next step](environments.html "Try the application")
+[Next step](github-pages/environments.html "Try the application")

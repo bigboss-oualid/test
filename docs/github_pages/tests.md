@@ -24,4 +24,4 @@ Unit & fucntional tests are located in the folder ``./tests/PHPUnit``.
 ./vendor/bin/behat.bat --tags=TAGS_NAME
 ```
 
-[Next step](tests.md "Run Tests")
+[Next step](github-pages/tests.md "Run Tests")
