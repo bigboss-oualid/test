@@ -4,8 +4,7 @@
 
 1. [Installation](installation.md)
 2. [Environnements](environments.md)
-2. [Try the Application](try_application.md)
-3. [Tests](tests.md)
+3. [Try the Application](try_application.md)
 4. [Tests](tests.md)
-5. [Analyse](analyse.md)
-3. [Intégration continue](integration_continue.md)
+5. [Analyse](analysis.md)
+3. [Reports](reports.md)
