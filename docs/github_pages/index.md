@@ -2,12 +2,10 @@
 
 ## Sommaire
 
-1. [Installation](github_pages/installation.md)
-2. [Try the Application](github_pages/try_application.md)
-3. [Tests](github_pages/tests.md)
-2. [Environnements](github_pages/environnements.md)
-3. [Intégration continue](github_pages/integration_continue.md)
-4. [Tests](github_pages/tests.md)
-5. [Analyse](github_pages/analyse.md)
-6. [php.ini](github_pages/php_ini.md)
-7. [Apache2](github_pages/apache.md)
+1. [Installation](installation.md)
+2. [Environnements](environments.md)
+2. [Try the Application](try_application.md)
+3. [Tests](tests.md)
+4. [Tests](tests.md)
+5. [Analyse](analyse.md)
+3. [Intégration continue](integration_continue.md)

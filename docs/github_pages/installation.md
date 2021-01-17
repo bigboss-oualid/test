@@ -1,7 +1,7 @@
 
 # Installation
 
-[Back to summary](../index.md)
+[Back to summary](index.md)
 
 ## Prepare your work environment 
 ### Prerequisites
@@ -37,7 +37,7 @@ composer install
 npm install
 ```
 
-### Set up Database:
+### Initialize the databases:
 1. Edit the variable ***DATABASE_URL*** at line ``28`` on the file **```./.env```** with your database details.
  
  > [More info about how you Configure the Database in Symfony?](https://symfony.com/doc/current/doctrine.html#configuring-the-database)
@@ -64,4 +64,4 @@ php bin/console --no-interaction doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load -n
 ```
 
-[Next step](try_application.html "Try the application")
+[Next step](environments.html "Try the application")

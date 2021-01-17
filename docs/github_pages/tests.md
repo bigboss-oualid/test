@@ -1,31 +1,27 @@
 # Tests
 
-[Retour au sommaire](index.md)
+[Back to summary](index.md)
 
-Tout d'abord, faisons le point sur les différentes types de tests que nous implémenterons.
+##PHPUnit
+Unit & fucntional tests are located in the folder ``./tests/PHPUnit``.
 
-Pour cela, nous allons suivre la pyramide de test :
-* **Test d'acceptation** : On valide les tests d'acceptation grâce à Gherkin.
-* **Test unitaire** : Tester les cas d'utilisation (et donc seulement les `BusinessRules`.
-* **Test d'intégration** : Tester l'interface, en simulant une requête HTTP, en bouchonnant les ports secondaires.
-* **Test système** : Tester l'interface, toujours en simulant une requête HTTP, sans bouchonner les ports secondaires.
+```shell
+# Run all tests of the app
+./bin/phpunit
 
-Lancer tous les tests :
-```
-make tests
+# Run tests for one class (replace CLASS_NAME with the name of class you want test)
+./bin/phpunit --filter CLASS_NAME
 ```
 
-Lancer seulement les tests unitaires :
-```
-make unit-tests
+##Behat
+ BDD tests are located in the folder ``./features``.
+
+```shell
+# Run all tests of the app
+./vendor/bin/behat
+
+# Run only one test (replace TAGS_NAME with the name of tag you want test)
+./vendor/bin/behat.bat --tags=TAGS_NAME
 ```
 
-Lancer seulement les tests d'intégration :
-```
-make integration-tests
-```
-
-Lancer seulement les tests systèmes :
-```
-make system-tests
-```
+[Next step](github-pages/tests.md "Run Tests")
