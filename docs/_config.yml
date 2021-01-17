@@ -4,7 +4,7 @@ description: Feel free to bookmark this to keep an eye on my project updates.
 exclude: [authentication_tutorial]
 show_downloads: true
 baseurl: "/test"
-production_url : https://bigboss-oualid.github.io/test/github_pages
+production_url : https://bigboss-oualid.github.io/test
 BASE_PATH : http://bigboss-oualid.com/test/github_pages
 #permalink: https://bigboss-oualid.github.io/test/docs/
 #baseurl: it-bigboss.de
