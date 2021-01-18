@@ -1,4 +1,4 @@
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-merlot
 title: Welcome to 'ToDo&Co' Repository homepage!
 description: Feel free to bookmark this to keep an eye on my project updates.
 exclude: [authentication_tutorial]
